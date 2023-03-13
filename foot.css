@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}.foot{
+    padding: 0 50px;
+    background-color:black;
+}
+.f1{
+    display: flex;
+    justify-content: space-between;
+}
+.f1half{
+    color: aliceblue;
+    height: 100px;
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.f1shalf{
+    width: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.f2{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.f3{
+    height: 200px;
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.f1btn{
+    display: flex;
+    flex-direction: column;
+    padding: 6px 10px 6px 10px;
+    border: 1px solid whitesmoke;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+#smal{
+    font-weight: bold;
+    font-size: xx-small;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+}
+.f1btn i{
+    padding: 6px 4px 0 0 ;
+}
+.f1btn:hover{
+background-color: #fff;
+color: black;
+}
+#down{
+    border: none;
+}
+#down:hover{
+    background-color: black;
+    color: gray;
+}
+.f2btn{
+    padding: 0 30px;
+    color: gray;
+    border-right: 1px solid gray;
+}
+.f3box{
+    padding: 10px 20px 10px 20px;
+    height: 130px;
+    color: grey;
+}
+.f3box h4{
+    color: whitesmoke;
+}.f1shalf i{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #4c4848;
+    font-size: large;
+    color: aliceblue;
+}
